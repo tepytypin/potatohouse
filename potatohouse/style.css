@@ -1,0 +1,63 @@
+body{
+    background-color: aquamarine;
+    text-align: center;
+}
+
+.banner{
+    height: 250px;
+    background-image: url(potato_house_images/bg4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner h1{
+    text-align: right;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px
+}
+
+.banner p{
+    text-align: right;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+}
+
+.nav{
+    border: 5px solid green;
+}
+
+.nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    width: 25%;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: cadetblue;
+    padding: 10px;
+    border-radius: 30px;
+    border: 2pxsoli
+}
+
+.card {
+    width: 200px;
+    text-align: center;
+    background-color: burlywood;
+    border: 2px solid white;
+    display: inline-block;
+    margin: 5px;
+}
+
+.card img{
+    width: 100%;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+
